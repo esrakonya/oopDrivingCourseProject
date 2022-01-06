@@ -52,6 +52,7 @@ public class Main {
 		LearnerDriverManager learnerDriverManager1 = new LearnerDriverManager();
 		learnerDriverManager1.whatIsTheFirstName(learnerDriver1);
 		learnerDriverManager1.whatIsTheLastName(learnerDriver1);
+		learnerDriverManager1.identityNumberOfLearnerDriver(learnerDriver1);
 		learnerDriverManager1.enterPassword(learnerDriver1);
 		learnerDriverManager1.add(learnerDriver1);
 		learnerDriverManager1.update(learnerDriver1);
@@ -64,6 +65,7 @@ public class Main {
 		LearnerDriverManager learnerDriverManager2 = new LearnerDriverManager();
 		learnerDriverManager2.whatIsTheFirstName(learnerDriver2);
 		learnerDriverManager2.whatIsTheLastName(learnerDriver2);
+		learnerDriverManager2.identityNumberOfLearnerDriver(learnerDriver2);
 		learnerDriverManager2.enterPassword(learnerDriver2);
 		learnerDriverManager2.add(learnerDriver2);
 		learnerDriverManager2.update(learnerDriver2);

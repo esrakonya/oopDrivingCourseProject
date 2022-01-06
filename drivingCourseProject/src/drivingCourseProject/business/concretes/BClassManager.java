@@ -20,7 +20,7 @@ public class BClassManager implements BClassService{
 
 	@Override
 	public void isThereExperienceRequirement(DrivingLicence drivingLicence) {
-		System.out.println("B sýnýf ehliyet için minimum yaþ sýnýrý : "+drivingLicence.getAgeLimit());
+		System.out.println("B sýnýf ehliyet için deneyim þartý var mý ? "+drivingLicence.getExperienceRequirement());
 		
 	}
 
